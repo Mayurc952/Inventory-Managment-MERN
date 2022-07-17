@@ -1,0 +1,14 @@
+.image{
+  position: relative;
+  max-height: 550px;
+  max-width: 550px;
+  background-image: url(../imgpro/about.jpg);
+
+}
+.main{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+

@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+
+/* main layout css--> */
+
+#root {
+  height: 100%;
+}
+
+.header {
+  height: 70px;
+  background-image: linear-gradient(
+    to right,
+    rgb(80, 97, 226),
+    rgb(62, 146, 224)
+  );
+}
+
+.content {
+  display: flex;
+}
+
+.footer {
+  color: black;
+  text-align: center;
+  display: block;
+}
+
+.detail {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(
+    to right,
+    rgb(179, 118, 179),
+    rgb(162, 13, 176)
+  );
+  flex: 1;
+  min-height: calc(100vh - 80px);
+}
+
+.sider {
+  min-height: calc(100vh - 80px);
+  background-color: #001529;
+}
+
+.picStyle {
+  background: url("https://uploads-ssl.webflow.com/60edc0a8835d5b38bf11f03f/61cf04b6ec15b58091ed45d3_Functions-of-Inventory-Management-Software.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+  height: 100vh;
+}
+
+.co_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project_container {
+  overflow: auto;
+}
+
+.text_align {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 8% 3% 0 0;
+}
+
+.or:hover {
+  background-color: #f31a1a;
+  color: rgb(113, 224, 82);
+  border: solid;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
